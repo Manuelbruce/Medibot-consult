@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "392154972962",
+    "project_id": "mdb-consult",
+    "storage_bucket": "mdb-consult.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392154972962:android:1ca47b64091be44adcdb7b",
+        "android_client_info": {
+          "package_name": "com.example.dice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392154972962-v3i2ga538030f25ft034cl5681a84rdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0kfbigKDFemTG69NGjVey2lSiFNvp-nE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392154972962-v3i2ga538030f25ft034cl5681a84rdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
