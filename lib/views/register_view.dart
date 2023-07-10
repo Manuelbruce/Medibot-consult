@@ -175,7 +175,12 @@ class _SignInViewState extends State<SignInView> {
                                       fontWeight: FontWeight.bold,
                                     ),),
                                   SizedBox(width: 10),
-                                  ElevatedButton(onPressed: () {},
+                                  ElevatedButton(onPressed: () {
+                                    Navigator.of(context).pushNamedAndRemoveUntil(
+                                        '/login/',
+                                            (route) => false
+                                    );
+                                  },
                                       child: Text('Log In'),
                                       style: ElevatedButton.styleFrom(
                                           backgroundColor: Colors.teal,

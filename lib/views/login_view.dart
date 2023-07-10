@@ -44,7 +44,7 @@ class _LoginViewState extends State<LoginView> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Padding(
-                          padding: const EdgeInsets.only(top: 50),
+                          padding: const EdgeInsets.only(top: 30),
                           child: Center(
                             child: CircleAvatar(
                                 radius: 50.0,
@@ -54,7 +54,7 @@ class _LoginViewState extends State<LoginView> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(top: 70.0, left: 40.0),
+                          padding: const EdgeInsets.only(top: 40.0, left: 40.0),
                           child: Text(
                             'Welcome back to',
                             style: TextStyle(
@@ -88,7 +88,6 @@ class _LoginViewState extends State<LoginView> {
                         ),
                         SizedBox(height:20),
                         Container(
-
                           padding: EdgeInsets.symmetric(horizontal: 20.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -169,7 +168,12 @@ class _LoginViewState extends State<LoginView> {
                                       fontWeight: FontWeight.bold,
                                     ),),
                                   SizedBox(width: 10),
-                                  ElevatedButton(onPressed: () {},
+                                  ElevatedButton(onPressed: () {
+                                     Navigator.of(context).pushNamedAndRemoveUntil(
+                                         '/signup/',
+                                             (route) => false
+                                     );
+                                  },
                                       child: Text('Sign Up'),
                                       style: ElevatedButton.styleFrom(
                                           backgroundColor: Colors.teal,
