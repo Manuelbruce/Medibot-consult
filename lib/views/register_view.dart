@@ -1,7 +1,9 @@
+import 'package:dice/constants/routes.dart';
 import 'package:dice/firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'dart:developer' as devtools show log;
 
 class SignInView extends StatefulWidget {
   @override
@@ -142,15 +144,15 @@ class _SignInViewState extends State<SignInView> {
                                       email: email,
                                       password: password,
                                     );
-                                    print(userCredential);
+                                    devtools.log(userCredential.toString());
                                   } on FirebaseAuthException catch (e) {
                                     if (e.code == 'weak-password') {
-                                      print('Weak password');
+                                      devtools.log('Weak password');
                                     } else
                                     if (e.code == 'email-already-in-use') {
-                                      print('print email in use');
+                                      devtools.log('print email in use');
                                     } else if (e.code == 'invalid-email') {
-                                      print('invalid email entered');
+                                      devtools.log('invalid email entered');
                                     }
                                   }
                                 },
@@ -177,7 +179,7 @@ class _SignInViewState extends State<SignInView> {
                                   SizedBox(width: 10),
                                   ElevatedButton(onPressed: () {
                                     Navigator.of(context).pushNamedAndRemoveUntil(
-                                        '/login/',
+                                        loginRoute,
                                             (route) => false
                                     );
                                   },

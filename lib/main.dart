@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'dart:developer' as devtools show log;
 
+import 'constants/routes.dart';
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,8 +16,10 @@ void main() {
     MaterialApp(
       home:HomePage(),
       routes: {
-        '/login/':(context) => LoginView(),
-        '/signup/':(context)=>  SignInView(),
+
+        loginRoute:(context) => LoginView(),
+        signupRoute :(context)=>  SignInView(),
+        mainAppRoute:(context) => MainAppView(),
     },
     ),
   );
@@ -80,7 +84,7 @@ class _MainAppViewState extends State<MainAppView> {
               if(shouldLogout){
                 await FirebaseAuth.instance.signOut();
                 Navigator.of(context).pushNamedAndRemoveUntil(
-                    '/login/',
+                    loginRoute,
                         (route) => false,
                 );
               }
