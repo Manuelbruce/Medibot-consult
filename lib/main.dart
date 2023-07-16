@@ -20,6 +20,7 @@ void main() {
         loginRoute:(context) => LoginView(),
         signupRoute :(context)=>  SignInView(),
         mainAppRoute:(context) => MainAppView(),
+        verifyEmailRoute:(context) => VerifyEmailView(),
     },
     ),
   );
