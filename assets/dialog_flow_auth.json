@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "medibot-consult-qvka",
+  "private_key_id": "ce621f928d7d45d22faebcc9cfeb98e0b5cc1ade",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDLpo1M4XgSFbp\nJQX6C8sP5gMYZ+B4/vjVB9YoLLTs3zKz3Zvj+z42eZvQwFOzCL6Fyu1cK9Sm8kl6\ns9AeqoKjqfpIkL7wCdQP8vZkUOsJT91Dos6CE6owH+R4tjENumAI+If0YPpqtbab\nIGJu9ce92vvWN1kp8FeSSca61k6wAZuMKPfOH+OewrnIvMKTd0oGQTmHPwObl4FQ\n9F9R1dfXqRoPP0nfv4PHdwN6QXqZxEf3OPKMMlYOrWFNP0wzHs3zXkAYh/wyBZDj\nwvKsFU1CZ9HSFIOJ4qD+LOjXEVahVLWqb4M3Z/MFljnAjj6FZsbCDPF4i6s3U3HJ\n/57yABhjAgMBAAECggEAUZNlsjyhhJbXdEQcFmDdcvygaI/p2sg+OdM3p7zftWyn\n5VMG96cnXl8/R2VK1jYeYw7oW7CaBViYa2dB4b9EMKE3USLmGq8Q6cWTQ2Qqh87Q\nXJdsFiOf6tM5i1YidGlj//vX3sS1hOoDsxw658Njwy8GOIcThhrEjwi0vZwacSbP\n1gxjnZ0ATBShAZhAKjOwcyzKh0/SdNWVvYW8Fxamf06xlhINrHXNE5HZYVhixFVc\nEnt7nVnh0XdYRW4m9K5C2/61Wqfe2ju7zZSAf/a3tAKRtAOQbcSQ+MRj3JX/I2oc\nYViYa2pCpPZPA9ULJ+xckTw5yPqH6dvwGxDyZ2vx0QKBgQDpNk77aCoB1j+1DvQj\n4yIH8GoqNXbvDVuy/rgsjhSv7+9c/j7CnaLuEnCXK2L6hHR18/ZZbGF+z/PtdlCV\n2/kmFJEh01Te/5X05yBLfo6JQJ97yFPNUbC/2iOm9HGS6vyk+OmY8L60Nenpm6GD\no+BYjahLft1ZRglXjEM5/YV3+QKBgQDWQP0jz5gVwZ/XVFabzlN+twfXEGlSbiN7\nX47ssGHlA+llPjQOVUkWCRNZaIuPyZHM37PHaGvYSd0N7Az/3jcli5/qxQsZNu9y\nB3SRBezA+NX0whC/enpJUauCfsyg50ctvKn3It5P6Z5QEXJjopVaB7YSWefiSjqK\noN6wthmCOwKBgQDJEJih6pmlAcnlWWIl+rKhc6akg3np+nNf7Hpvd4PgeBW/8De9\n5NjPNzi5LJ/mawJZm59+U5HvGm0tAz/RJFk3eq3yItjedi8ceZR/YjqTnRKjTwDp\nWQ/xKKpqTAALceumdDA6Ov3AM2dbkGF9NHG9B0zc4iEG0fpF79kaCzjiSQKBgCDn\nkDj8u92zg+ndEQQStu4CDBkycwpu0dIzxc6B9Dbo1+JtoC8HWBcjQ656iNyHV3YA\ncSrR1aY9Cc8GjqSJKyz/+YpjwqWXs0Ru8q8HGuo0DR/u4gWWOMuj2FRNRv37JwpW\nLEBBQaVCOscPNuMoaAmQn5zH4/3z6nO56xl2jgpbAoGABgsi+HQcYCdowPXDWQZG\ngBKhg2vGvH8VfiMQ0UF3Y7j20SWrDCs3Pa0lxX5u5WG8dYbav/2BAT4EUq6ddvQx\nP6dam8ckMussl8ROyUwbPqSr0mQB6KoRawg+8Hgi3ZgGgf1fb+FvHJ6nozR2dhnJ\nLKOZ7TAZ38TM6Nti5YkWgzc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "medibotconsult@medibot-consult-qvka.iam.gserviceaccount.com",
+  "client_id": "114467265458212121048",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/medibotconsult%40medibot-consult-qvka.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

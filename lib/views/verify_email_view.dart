@@ -72,6 +72,7 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
                 ElevatedButton(
                   onPressed: () async{
                  await   FirebaseAuth.instance.signOut();
+                 await
                  Navigator.of(context).pushNamedAndRemoveUntil(signupRoute, (route) => false);
                   },
                   child: Text(
